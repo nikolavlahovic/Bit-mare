@@ -1,0 +1,38 @@
+.all-candidates {
+  display: grid;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: space-around;
+  /* background-image: url("/src/components/images/pozadina.jpg"); */
+  background-color: black;
+  font-family: "Montserrat", sans-serif;
+  min-height: 100vh;
+  grid-template-columns:repeat(3, 1fr);
+
+}
+
+.single-candidate {
+  background-color:#808080;
+  border-radius: 15%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  color: black;
+  font-weight: 800;
+  font-family: "Montserrat", sans-serif;
+  margin: 20px;
+
+}
+.single-candidate img {
+    width: 70%;
+    align-self: center;
+    border-radius: 10%;
+    cursor: pointer;
+
+}
+.title{ 
+  color:white
+
+}

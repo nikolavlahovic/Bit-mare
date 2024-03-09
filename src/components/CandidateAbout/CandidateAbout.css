@@ -1,0 +1,49 @@
+.candidate-info{
+    align-items: center;
+    padding-top:40px ;
+   
+   
+}
+.info-card{
+    background-color: #808080;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+   
+
+}
+.info-card>img{
+    width: 40%;
+    padding:25px;
+    
+    
+}
+
+.info-card > .backButton {
+    display: flex;
+    flex-direction: column;
+}
+
+.info-text > button {
+    margin-top: 50px;
+    font-size: 16px;
+    font-weight: 200;
+    letter-spacing: 1px;
+    padding: 13px 20px 13px;
+    outline: 0;
+    border: 1px solid black;
+    cursor: pointer;
+    position: relative;
+    background-color :black;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    color: #808080;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 15px;  
+}
+.info-text{
+    padding: 10px;
+
+}

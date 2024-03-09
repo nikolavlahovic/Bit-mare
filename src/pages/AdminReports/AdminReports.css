@@ -1,0 +1,22 @@
+.admin-reports {
+    padding-left:  20px;
+    background-color: black;
+    color: white;
+    min-height: 100vh;
+    margin-top: -18px;
+    
+    
+}
+.photo{
+    background-color: #808080;
+    width: 2%;
+}
+img {
+    width: 30px;
+    cursor: pointer;
+    color: white;
+
+}
+hr{
+    border: 1px solid #808080;
+}

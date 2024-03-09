@@ -1,0 +1,57 @@
+/* .firststep {
+  font-family: "Montserrat", sans-serif;
+  min-height: 100vh;
+  background-image: url("/src/components/images/pozadina.jpg");
+  color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  gap: 10px;
+  font-weight: bold;
+}
+
+
+
+/* .MuiBox-root.css-2royc9 {
+    background-color: rgb(10, 10, 149);
+    display: flex;
+} */
+
+
+
+/* .wizard {
+    display: flex;
+    flex: 1;
+}
+
+.boxic {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+} */
+
+.wizard {
+  width: fit-content;
+  margin: 0 auto;
+  
+}
+.boxic{
+  background-color: black;
+  /* color: #808080; */
+
+}
+textarea{
+  background-color: #808080;
+  font-family:"Montserrat", sans-serif;
+  padding: 10px;
+  border-radius: 15px;
+  height: 200px;
+  width: 80%;
+  margin-left: 140px;
+}
+.margin{
+  margin: 10px;
+  
+ 
+}
+
